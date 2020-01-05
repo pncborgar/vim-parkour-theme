@@ -15,4 +15,4 @@ and than in vim, run:
 
 and then to set the parkour theme as default vim theme, add this to your vim config:
 
-`colorscheme parkour'
+`colorscheme parkour`
