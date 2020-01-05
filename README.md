@@ -7,7 +7,7 @@
 
 Add this line to your vim/neovim config file:
 
-`Plug pncborgar/vim-parkour-theme`
+`Plug 'pncborgar/vim-parkour-theme'`
 
 and than in vim, run:
 
