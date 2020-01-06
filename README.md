@@ -4,6 +4,8 @@
  
 ## Screenshot
 ![parkour theme](screenshot.jpg)
+The font used in screenshot is [_Victor Mono_](https://github.com/rubjo/victor-mono)
+
 ## Installation With vim-plug 
 
 Add this line to your vim/neovim config file:
