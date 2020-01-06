@@ -106,9 +106,23 @@ exe 'hi jsGlobalObjects guifg='s:type
 exe 'hi jsAssignmentExps guifg='s:var
 
 " Html Highlighting
-exe 'hi htmlLink guifg='s:var' gui=underline'
+exe 'hi htmlLink guifg='s:const' gui=underline'
 exe 'hi htmlStatement guifg='s:keyword
 exe 'hi htmlSpecialTagName guifg='s:keyword
+exe 'hi htmlTagName guifg='s:type
+exe 'hi htmlTag guifg='s:comment
+exe 'hi htmlEndTag guifg='s:comment
+exe 'hi htmlArg guifg='s:builtin' gui=italic'
+exe 'hi htmlSpecialChar guifg='s:builtin
+
+" Css Highlighting
+exe 'hi cssBraces guifg='s:comment
+exe 'hi cssClassName guifg='s:keyword
+exe 'hi cssValueLength guifg='s:keyword
+exe 'hi cssCommonAttr guifg='s:keyword
+exe 'hi cssPseudoClassId guifg='s:type
+exe 'hi cssURL guifg='s:str
+exe 'hi cssFunctionName guifg='s:str
 
 " Markdown Highlighting
 exe 'hi mkdCode guifg='s:builtin
