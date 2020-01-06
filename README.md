@@ -9,15 +9,16 @@ The font used in screenshot is [_Victor Mono_](https://github.com/rubjo/victor-m
 ## Installation With vim-plug 
 
 Add this line to your vim/neovim config file:
-
-`Plug 'pncborgar/vim-parkour-theme'`
-
-and than in vim, run:
-
-`:PlugInstall`
-
-and then to set the parkour theme as default vim theme, add this to your vim config:
-
-`colorscheme parkour`
+```
+Plug 'pncborgar/vim-parkour-theme'
+```
+and then in vim, run:
+```
+:PlugInstall`
+```
+then to add this line to your vim config to set *parkour theme* as your default vim theme:
+```
+colorscheme parkour
+```
 ## In other editors...
 There is also [a port of Parkour! for Visual Studio Code](https://github.com/pncborgar/vscode-parkour-theme/). Have a try.
