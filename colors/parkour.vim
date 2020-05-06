@@ -13,7 +13,7 @@ let g:colors_name = "parkour"
 
 
 " Define reusable colorvariables.
-let s:bg="#171b24"
+let s:bg="#1F2430"
 let s:fg="#ffffff"
 let s:fg2="#ebebeb"
 let s:fg3="#d6d6d6"
