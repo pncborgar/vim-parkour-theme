@@ -18,8 +18,8 @@ let s:fg="#ffffff"
 let s:fg2="#ebebeb"
 let s:fg3="#d6d6d6"
 let s:fg4="#c2c2c2"
-let s:bg2="#1F2430"
-let s:bg3="#1F2430"
+let s:bg2="#272d3d"
+let s:bg3="#30384c"
 let s:bg4="#1F2430"
 let s:bg5="#1F2430"
 let s:keyword="#8A7DC7"
@@ -67,7 +67,7 @@ exe 'hi Function guifg='s:func' gui=italic'
 exe 'hi Identifier guifg='s:type'  gui=italic'
 exe 'hi Keyword guifg='s:keyword'  gui=bold'
 exe 'hi Label guifg='s:var
-exe 'hi NonText guifg='s:bg4' guibg='s:bg2 
+exe 'hi NonText guifg='s:bg4' guibg='s:bg
 exe 'hi Number guifg='s:const  
 exe 'hi Operater guifg='s:keyword  
 exe 'hi PreProc guifg='s:keyword  
